@@ -2,7 +2,7 @@
 Tipos de dados bool (boolean)
 Ao questionar algo em um programa. só existem duas respostas,
 verdadeiro ou falso, sim ou não!
-Isso é chamado de dados booleanos.
+Isso é chamado de dados boolianos.
 
 Podemos usar operados de questionamento, como por exemplo:
 > (maior que)
