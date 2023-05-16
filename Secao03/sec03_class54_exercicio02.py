@@ -4,9 +4,21 @@ apropriada. Exemplo: Bom dia de 0 até 11 horas, Boa tarde de 12 até 17 horas e
 
 """
 
-"""
-Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letras pi menos 
-escreva: "Seu nome é curto", se tiver entre 5 e 6 letras, escreva "Seu nome é normal" e se 
-tiver mais que 6 letras, escreva "Seu nome é muito grande"
+hora = input('Digite uma hora entre (0-23) somente números inteiros: ')
 
-"""
+try:
+    hora = int(hora)
+
+    if hora >= 0 and hora <= 11:
+        print('Bom dia!')
+    elif hora >= 12 and hora <= 17:
+        print('Boa tarde!')
+    elif hora >= 18 and hora <= 23:
+        print('Boa noite!')
+    else:
+        print('Hora inválida')
+except:
+    print('Você não digitou um número inteiro')
+
+
+
